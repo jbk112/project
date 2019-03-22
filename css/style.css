@@ -357,7 +357,7 @@ img.position {
 }
 
 .accordion label:after {
-    content: '\2795';
+    content: url('../img/plus.png');
     position: absolute;
     right: 0em;
     top: 0px;
