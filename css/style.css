@@ -169,11 +169,13 @@ img.position {
 .active {
     background: #2f2f2f;
     background-image: url('../img/noise.png');
+    background-repeat: no-repeat;
+    background-size: cover;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
     box-shadow: 0px 3px 2px #545454;
     color: white !important;
-    width: 10%;
+    width: 120px;
 }
 
 /*-----End Nav work section-----*/
@@ -188,7 +190,7 @@ img.position {
     float: left;
     margin-left: 10%;
     color: #1da7dd;
-    width: 5%;
+    width: 80px;
     height: 32px;
     text-align: center;
     text-decoration: none;
@@ -198,7 +200,7 @@ img.position {
     float: left;
     margin-left: 1%;
     color: #1da7dd;
-    width: 8%;
+    width: 100px;
     height: 34px;
     text-align: center;
     text-decoration: none;
@@ -208,8 +210,8 @@ img.position {
     float: left;
     margin-left: 1%;
     color: #1da7dd;
-    width: 8%;
-    height: 32px;
+    width: 100px;
+    height: 35px;
     text-align: center;
     text-decoration: none;
 }
