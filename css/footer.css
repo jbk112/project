@@ -39,6 +39,10 @@ footer {
   text-decoration: none;
 }
 
+.generic-anchor:hover {
+  text-decoration: underline white;
+}
+
 .line-footer {
   color: #494949;
 }

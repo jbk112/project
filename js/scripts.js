@@ -1,10 +1,16 @@
 $(function() {
-  var $sqre = $('a').click(function() {
+  var $sqre = $('#tabs a').click(function() {
     $sqre.not(this).removeClass('active');
     $(this).toggleClass('active');
   });
 });
 
+$(function() {
+  var $sqre = $('.menu a').click(function() {
+    $sqre.not(this).removeClass('active');
+    $(this).toggleClass('active');
+  });
+});
 $.ajax({
   url:'products.json',
   dataType: 'json',
