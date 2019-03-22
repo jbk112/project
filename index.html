@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Developer Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/jquery-ui.min.css"></link>
+        <link rel="stylesheet" href="css/footer.css"></link>
+        <link rel="stylesheet" href="css/style.css"></link>
+        <script src="js/jquery-3.3.1.min.js"></script>
+        <script src="js/jquery-ui.min.js"></script>
+        <script src="js/scripts.js"></script>
+        <script type="text/javascript" language="javascript" src="products.json"></script> 
+        <script type="text/javascript">
+          /*$.getJSON('products.json', function(data){
+            console.log(data);
+          });*/
+
+
+        </script>
+</head>
+<body >
+  <nav>
+    <img src="img/website-logo.png" alt="Website X" class="position"/>
+    <label for="drop" class="toggle">Menu</label>
+      <input type="checkbox" id="drop" />
+        <ul class="menu">
+          <li><a href="#" class="mobile-list">Home</a></li>
+          <li><a href="#" class="mobile-list">About Us</a></li>
+          <li><a href="#" class="mobile-list">Services</a></li>
+          <li><a href="#" class="mobile-list">Contact Us</a></li>
+          <li><a href="#" class="sideBar header-links">Terms and Conditions</a></li>
+          <li><a href="#" class="header-links">Privacy Policiy</a></li>
+          <li><a href="#" class="mobile-list">Where To Buy</a></li>
+          <form action="/search/" method="get" class="mobile-tabs">
+              <input type="text" name="SearchTerms" placeholder="Search.." id="search" onKeyPress="return submitenter(this,event)" />
+                <span id="searchButton"></span>
+          </form>
+        </ul>
+  </nav>
+  <section id="tabs">
+    <a href="#" class="tab1 mobile-tabs active">home</a>
+    <a href="#" class="tab2 mobile-tabs">about us</a>
+    <a href="#" class="tab3 mobile-tabs">services</a>
+    <a href="#" class="tab4 mobile-tabs">contact us</a>
+  </section>
+
+  <section id="side-info">
+      <div class="info-box">
+        <img src="img/new.png" class="info-new-bulletin">
+        <h2 class="info-first-title">This is a Title</h2>
+          <p class="info-first-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin et orci nec diam lobortis pulvinar. Nunc rutrum justo ac nisi sed eros suscipit hendrerit vel id ipsum. Suspendisse potenti. Ut urna dui, dictum eu auctor elementum, condimentum an magna. Mauris facilisis ultricies sum vitae porta.</p>
+          <hr class="line-split">
+        <h2 class="info-first-title">This is a Title</h2> 
+          <p class="info-second-paragraph">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Proin et orci nec diam lobortis pulvinar. Nunc rutrum justo ac nisi sed eros suscipit hendrerit vel id ipsum. Suspendisse potenti. Ut urna dui, dictum eu auctor elementum, condimentum an magna. Mauris facilisis ultricies sum vitae porta.</p>
+      </div>
+  </section>
+
+  <section id="title-area">
+     <h2 class="title">Page Title</h1>
+     <p class="title-sub">Some Kind of Subheading About Whatever This Is</p>
+     <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Semper eget duis at tellus at urna condimentum mattis pellentesque. Eu tincidunt tortor aliquam nulla. Luctus venenatis lectus magna fringilla urna porttitor rhoncus dolor purus. Egestas quis ipsum suspendisse ultrices gravida dictum fusce. Convallis tellus id interdum velit laoreet id. Risus at ultrices mi tempus. Id velit ut tortor pretium viverra suspendisse potenti nullam ac. Porta nibh venenatis cras sed felis eget velit. Lacus suspendisse faucibus interdum posuere lorem ipsum dolor. Vitae et leo duis ut diam quam.</p>
+  </section>
+
+  <section id="main-content">
+    <div class="accordion">
+      <div>
+        <input type="checkbox" name="panel" id="panel-1">
+          <label for="panel-1" id="label1"></label>
+            <div id="accordion-1" class="accordion__content accordion__content--small">
+              <p id="section1" class="accordion__body"></p>
+            </div>
+      </div>
+
+    <div>
+      <input type="checkbox" name="panel" id="panel-2">
+        <label for="panel-2" id="label2"></label>
+          <div id="accordion-2" class="accordion__content accordion__content--med">
+            <p id="section2" class="accordion__body"></p>
+          </div>
+    </div>
+
+    <div>
+      <input type="checkbox" name="panel" id="panel-3">
+        <label for="panel-3" id="label3"></label>
+          <div id="accordion-3" class="accordion__content accordion__content--small">
+            <p id="section3" class="accordion__body"></p>
+          </div>
+    </div>
+
+    <div>
+      <input type="checkbox" name="panel" id="panel-4">
+        <label for="panel-4" id="label4"></label>
+          <div id="accordion-4" class="accordion__content accordion__content--small">
+            <p id="section4" class="accordion__body"></p>
+          </div>
+    </div>
+  </div>
+  </section>
+
+  <footer class="flex-rw">
+    <section class="footer-bottom-section flex-rw">
+      <div class="footer-bottom-wrapper">   
+        <p class="line-footer">&copy;2012 Website, inc.</p>
+      </div>
+      <div class="footer-bottom-wrapper footer-links">
+        <a href="#" class="generic-anchor" rel="nofollow">Home</a> 
+        <a class="line-footer">|</a> 
+        <a href="#" class="generic-anchor" rel="nofollow">About Us</a>
+        <a class="line-footer">|</a> 
+        <a href="#" class="generic-anchor" rel="nofollow">Services</a> 
+        <a class="line-footer">|</a> 
+        <a href="#" class="generic-anchor" rel="nofollow">Contact Us</a> 
+        <a class="line-footer">|</a> 
+        <a href="#" class="generic-anchor" rel="nofollow">Terms and Conditions</a> 
+        <a class="line-footer">|</a> 
+        <a href="#" class="generic-anchor" rel="nofollow">Privacy Policy</a>
+      </div>
+    </section>
+  </footer>
+</body>
+</html>
